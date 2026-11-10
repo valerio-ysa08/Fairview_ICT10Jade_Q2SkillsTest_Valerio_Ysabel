@@ -24,7 +24,7 @@
     h1 {
         padding-top: 50px;
         text-align: center;
-        background-color: rgb(175, 255, 228);
+        background-color: rgb(185, 255, 250);
         font-family: "Bonbon";
         font-weight: bold;
     }
@@ -36,14 +36,13 @@
         border-radius: 10px;
         align-items: center;
         text-align: center;
-        background-color: rgba(185, 255, 250, 0.766);
+        background-color: rgba(185, 255, 250, 0.592);
         }
 
     #btn {
         background-color: #ffa9d5;
 
     }
-
 </style>
 
 </head>
@@ -54,13 +53,11 @@
         <dov class="row justify-content-center">
             <div class="col-lg-5">
                 <form>
-                    <label for="countries">Enter a country code</label>
+                    <label for="elements">Hi there! 👩‍🔬 Kindly enter an element below:</label>
                     <br>
-                    <input type="text" id="countries" class="form-control">
+                    <input type="text" id="elements" class="form-control">
                     <br>
-                    <button type="button" class="btn btn-info" py-click="check_country">Check</button> 
-
-                    <button type="button" class="btn btn-warning" py-click="show_country">Show</button>
+                    <button type="button" id="btn" class="btn" py-click="show_element">Check Details</button> 
                 </form>
             </div>
         </div>
