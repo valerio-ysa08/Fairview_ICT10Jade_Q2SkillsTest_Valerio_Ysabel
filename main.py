@@ -28,11 +28,11 @@ def show_element(e):
     input_box = document.getElementById("elements")
     element = input_box.value.strip()
     
-    # UseS elements.get() with a default fallback tuple
+    # Uses elements.get() with a default fallback tuple
     default_val = ("Information not found.", "Atomic Number not found.", "Atomic Mass not found.")
     var2 = elements.get(element, default_val)
 
-    # DisplayS the formatted result
+    # Displays the formatted result
     document.getElementById("output1").innerHTML = f"""
     Symbol: {element} <br>
     Element: {var2[0]} <br>
